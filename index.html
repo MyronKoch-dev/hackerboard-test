@@ -3,40 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andromeda Protocol Hacker Board</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Andromeda HackerBoard</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
     <header>
-        <h1>Andromeda Protocol Hacker Board</h1>
-        <p>Engage, Contribute, and Earn Rewards!</p>
+        <h1>Andromeda Developer Program</h1>
+        <p>Welcome to the frontier of blockchain innovation with Andromeda's Operating System (aOS).</p>
     </header>
-
-    <!-- Profile Section with Dummy Data -->
-    <section id="profile">
-        <h2>Your Profile</h2>
-        <div class="profile-card">
-            <h3 id="username">Developer123</h3>
-            <p>Tier: <span id="user-tier">Novice</span></p>
-            <p>Points: <span id="user-points">0</span></p>
-            <div id="badges">
-                <h4>Badges</h4>
-                <ul id="badge-list">
-                    <li>First Milestone</li> <!-- Example of a pre-existing badge -->
-                </ul>
+    <main>
+        <section id="onboarding">
+            <h2>Onboarding Process</h2>
+            <ol>
+                <li>Join the <a href="https://t.me/andromedaprotocol/3776">Andromeda Developer Telegram</a></li>
+                <li>Complete 8 Guides in the <a href="https://docs.andromedaprotocol.io/guides/guides-and-examples/ado-builder">ADO Builder</a></li>
+                <li>Complete the Guide in the <a href="https://docs.andromedaprotocol.io/guides/guides-and-examples/app-builder/nft-auction-marketplace">App Builder</a></li>
+                <li>Complete the Guide in <a href="https://docs.andromedaprotocol.io/guides/guides-and-examples/embeddables/nft-auction">Embeddables</a></li>
+                <li>Post completion in the Main TG and ping @Superphly & @moontrips</li>
+            </ol>
+        </section>
+        <section id="hackerboard">
+            <h2>HackerBoard Tasks</h2>
+            <div id="task-filters">
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="web2">Web2</button>
             </div>
-        </div>
-    </section>
-
-    <!-- Challenges Section with Dummy Challenges -->
-    <section id="challenges">
-        <h2>Current Challenges</h2>
-        <ul id="challenge-list">
-            <!-- Challenge entries will be populated dynamically -->
-        </ul>
-    </section>
-
-    <script src="script.js"></script>
+            <div id="tasks-container"></div>
+        </section>
+    </main>
+    <footer>
+        <p>For any questions or feedback, please contact us in the <a href="https://t.me/andromedaprotocol/3776">Andromeda Developer Telegram</a>.</p>
+    </footer>
+    <script src="js/hackerboard.js"></script>
 </body>
 </html>
